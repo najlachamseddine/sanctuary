@@ -843,6 +843,8 @@
   //. Curried version of [`Z.takeWhile`][]. Discards the first inner value
   //. which does not satisfy the predicate, and all subsequent inner values.
   //.
+  //. See also [`dropWhile`](#dropWhile).
+  //.
   //. ```javascript
   //. > S.takeWhile(S.odd, [3, 3, 3, 7, 6, 3, 5, 4])
   //. [3, 3, 3, 7]
@@ -860,6 +862,8 @@
   //.
   //. Curried version of [`Z.dropWhile`][]. Retains the first inner value
   //. which does not satisfy the predicate, and all subsequent inner values.
+  //.
+  //. See also [`takeWhile`](#takeWhile).
   //.
   //. ```javascript
   //. > S.dropWhile(S.odd, [3, 3, 3, 7, 6, 3, 5, 4])
